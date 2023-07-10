@@ -44,7 +44,7 @@ export default class WeatherScreen extends Component {
             </Text>
             <Image
               style={styles.cloudImage}
-              source={require('clouds.png')}
+              source={require('./clouds.png')}
             />
             <View style={styles.textContainer}>
             <Text style={{ fontSize: 18}}>
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     title:{ 
       marginTop: 50, 
       fontSize: 30,
-      fontWeight: '550' 
+      fontWeight: '500' 
     },
     cloudImage :{ 
       width: 200, 
